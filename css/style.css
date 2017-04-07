@@ -1,0 +1,22 @@
+.bg-1 { 
+  background-color: #fe8c68;
+  color: #ffffff;
+}
+.bg-2 { 
+  background-color: #cfc4a6;
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #c5e6db;
+  color: #000000;
+}
+.bg-4 { 
+  background-color: #ffff01;
+  color: #000000;
+}
+
+.border-bottom {
+    border-bottom: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+}
