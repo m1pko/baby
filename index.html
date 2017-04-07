@@ -36,7 +36,6 @@
 			                     };
 			        
 			        update();
-			        setInterval(update, 60000);
 			      });
 				</script>
     		</div>
@@ -49,46 +48,6 @@
 			                     };
 			        
 			        update();
-			        setInterval(update, 60000);
-			      });
-				</script>
-    		</div>
-    		<div id="threeMonths" class="col-md-3 col-lg-3">
-    			<script>
-				    $(document).ready(function(){
-			        var then = $('#threeMonths'),
-			            update = function(){
-			                       then.html('<p>' + timeToReachMilestone(3) + '</p>');
-			                     };
-			        
-			        update();
-			        setInterval(update, 60000);
-			      });
-				</script>
-    		</div>
-    		<div id="sixMonths" class="col-md-3 col-lg-3">
-    			<script>
-				    $(document).ready(function(){
-			        var then = $('#sixMonths'),
-			            update = function(){
-			                       then.html('<p>' + timeToReachMilestone(6) + '</p>');
-			                     };
-			        
-			        update();
-			        setInterval(update, 60000);
-			      });
-				</script>
-    		</div>
-    		<div id="nineMonths" class="col-md-3 col-lg-3">
-    			<script>
-				    $(document).ready(function(){
-			        var then = $('#nineMonths'),
-			            update = function(){
-			                       then.html('<p>' + timeToReachMilestone(9) + '</p>');
-			                     };
-			        
-			        update();
-			        setInterval(update, 60000);
 			      });
 				</script>
     		</div>
@@ -101,7 +60,54 @@
 			                     };
 			        
 			        update();
-			        setInterval(update, 60000);
+			      });
+				</script>
+    		</div>
+    		<div id="threeMonths" class="col-md-3 col-lg-3">
+    			<script>
+				    $(document).ready(function(){
+			        var then = $('#threeMonths'),
+			            update = function(){
+			                       then.html('<p>' + timeToReachMilestone(3) + '</p>');
+			                     };
+			        
+			        update();
+			      });
+				</script>
+    		</div>
+    		<div id="sixMonths" class="col-md-3 col-lg-3">
+    			<script>
+				    $(document).ready(function(){
+			        var then = $('#sixMonths'),
+			            update = function(){
+			                       then.html('<p>' + timeToReachMilestone(6) + '</p>');
+			                     };
+			        
+			        update();
+			      });
+				</script>
+    		</div>
+    		<div id="nineMonths" class="col-md-3 col-lg-3">
+    			<script>
+				    $(document).ready(function(){
+			        var then = $('#nineMonths'),
+			            update = function(){
+			                       then.html('<p>' + timeToReachMilestone(9) + '</p>');
+			                     };
+			        
+			        update();
+			      });
+				</script>
+    		</div>
+    		<div id="milestoneToday" class="col-md-3 col-lg-3">
+    			<script>
+				    $(document).ready(function(){
+			        var then = $('#milestoneToday'),
+			            update = function(){
+			                       then.html('<p>' + isThereAnyMilestoneToday() + '</p>');
+			                     };
+			        
+			        update();
 			      });
 				</script>
     		</div>
