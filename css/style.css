@@ -1,3 +1,16 @@
+body { 
+  background-color: #fe8c68;
+  font-size: 16px;
+}
+
+p {
+  font-size: 120%
+}
+
+h1 {
+  font-size: 250%
+}
+
 .bg-1 { 
   background-color: #fe8c68;
   color: #ffffff;
@@ -16,7 +29,10 @@
 }
 
 .border-bottom {
-    border-bottom: solid;
-    border-color: #ffffff;
-    border-width: 1px;
+  border-bottom: solid;
+  border-color: #ffffff;
+  border-width: 1px;
 }
+
+
+

@@ -15,99 +15,99 @@
 	<div class="container-fluid">
 		<script src="js/baby.js"></script>
     	<div class="row">
-    		<div class="col-md-12 col-lg-12 text-center center-block bg-1 border-bottom">
-    			<img src="img/diaper.jpg" />
+    		<div class="col-xs-12 col-md-12 col-lg-12 text-center center-block bg-1 border-bottom">
+    			<img src="http://baby.naodigonada.com/img/diaper.png" />
     		</div>
-    		<div id="started" class="col-md-6 col-lg-6 text-center bg-2 border-bottom">
+    		<div id="started" class="col-xs-6 col-md-6 col-lg-6 text-center bg-2 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#started'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>Tudo começou a ' + whenItAllStarted() + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>Tudo começou a ' + whenItAllStarted() + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="now" class="col-md-6 col-lg-6 text-center bg-2 border-bottom">
+    		<div id="now" class="col-xs-6 col-md-6 col-lg-6 text-center bg-2 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#now'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>Hoje é ' + thisMoment() + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>Hoje é ' + thisMoment() + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="untilNow" class="col-md-12 col-lg-12 text-center bg-3 border-bottom">
+    		<div id="untilNow" class="col-xs-12 col-md-12 col-lg-12 text-center bg-3 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#untilNow'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>Até hoje já passaram ' + untilNow() + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>Até hoje já passaram ' + untilNow() + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="milestoneToday" class="col-md-12 col-lg-12 text-center bg-4 border-bottom">
+    		<div id="milestoneToday" class="col-xs-12 col-md-12 col-lg-12 text-center bg-4 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#milestoneToday'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>' + isThereAnyMilestoneToday() + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>' + isThereAnyMilestoneToday() + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="threeMonths" class="col-md-12 col-lg-12 text-center bg-1 border-bottom">
+    		<div id="threeMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-1 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#threeMonths'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>' + timeToReachMilestone(3) + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>' + timeToReachMilestone(3) + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="sixMonths" class="col-md-12 col-lg-12 text-center bg-2 border-bottom">
+    		<div id="sixMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-2 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#sixMonths'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>' + timeToReachMilestone(6) + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>' + timeToReachMilestone(6) + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="nineMonths" class="col-md-12 col-lg-12 text-center bg-3 border-bottom">
+    		<div id="nineMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-3 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#nineMonths'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>' + timeToReachMilestone(9) + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>' + timeToReachMilestone(9) + '</p><br /><br />');
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="dueDate" class="col-md-12 col-lg-12 text-center bg-4 border-bottom">
+    		<div id="dueDate" class="col-xs-12 col-md-12 col-lg-12 text-center bg-4 border-bottom">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#dueDate'),
 			            update = function(){
-			                       then.html('<br /><br /><p><h5>' + dueDate() + '</h5></p><br /><br />');
+			                       then.html('<br /><br /><p>' + dueDate() + '</p><br /><br />');
 			                     };
 			        
 			        update();
