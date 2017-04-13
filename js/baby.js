@@ -18,20 +18,21 @@ var dueDateUpperLimit = moment('2017-11-24').format('D MMMM YYYY');
 
 //Functions
 
-function thisMoment()
-{
-	return moment().format('dddd, D MMMM YYYY');
-}
-
 function whenItAllStarted()
 {
-	return beginning;
+	return 'Tudo começou a ' + beginning + '.';
 }
+
+function thisMoment()
+{
+	return 'Hoje é ' + moment().format('dddd, D MMMM YYYY') + '.';
+}
+
 
 function untilNow()
 {
 	var timeSoFar = moment.duration(moment().diff(dayOne));
-	return timeSoFar.months() + ' meses e ' + timeSoFar.days() + ' dias.';
+	return 'Até hoje já passaram ' + timeSoFar.months() + ' meses e ' + timeSoFar.days() + ' dias.';
 
 }
 
