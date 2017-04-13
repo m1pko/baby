@@ -12,25 +12,25 @@
   <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid center-content">
 		<script src="js/baby.js"></script>
     	<div class="row">
-    		<div class="col-xs-12 col-md-12 col-lg-12 text-center center-block bg-1 border-bottom">
-    			<img src="http://baby.naodigonada.com/img/diaper.png" />
+    		<div class="col-xs-4 col-md-4 col-lg-4 bg-1 border-bottom customHeight">
+    			<img class="img-responsive" src="http://baby.naodigonada.com/img/diaper.png" />
     		</div>
-    		<div id="started" class="col-xs-6 col-md-6 col-lg-6 text-center bg-2 border-bottom">
+    		<div id="started" class="col-xs-4 col-md-4 col-lg-4 text-center bg-2 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#started'),
 			            update = function(){
-			                       then.html('<br /><br /><p>Tudo começou a ' + whenItAllStarted() + '</p><br /><br />');
+			                       then.html('Tudo começou a ' + whenItAllStarted());
 			                     };
 			        
 			        update();
 			      });
 				</script>
     		</div>
-    		<div id="now" class="col-xs-6 col-md-6 col-lg-6 text-center bg-2 border-bottom">
+    		<div id="now" class="col-xs-4 col-md-4 col-lg-4 text-center bg-3 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#now'),
@@ -42,7 +42,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="untilNow" class="col-xs-12 col-md-12 col-lg-12 text-center bg-3 border-bottom">
+    		<div id="untilNow" class="col-xs-4 col-md-4 col-lg-4 text-center bg-4 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#untilNow'),
@@ -54,7 +54,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="milestoneToday" class="col-xs-12 col-md-12 col-lg-12 text-center bg-4 border-bottom">
+    		<div id="milestoneToday" class="col-xs-4 col-md-4 col-lg-4 text-center bg-1 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#milestoneToday'),
@@ -66,7 +66,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="threeMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-1 border-bottom">
+    		<div id="threeMonths" class="col-xs-4 col-md-4 col-lg-4 text-center bg-2 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#threeMonths'),
@@ -78,7 +78,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="sixMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-2 border-bottom">
+    		<div id="sixMonths" class="col-xs-4 col-md-4 col-lg-4 text-center bg-3 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#sixMonths'),
@@ -90,7 +90,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="nineMonths" class="col-xs-12 col-md-12 col-lg-12 text-center bg-3 border-bottom">
+    		<div id="nineMonths" class="col-xs-4 col-md-4 col-lg-4 text-center bg-4 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#nineMonths'),
@@ -102,7 +102,7 @@
 			      });
 				</script>
     		</div>
-    		<div id="dueDate" class="col-xs-12 col-md-12 col-lg-12 text-center bg-4 border-bottom">
+    		<div id="dueDate" class="col-xs-4 col-md-4 col-lg-4 text-center bg-1 border-bottom customHeight">
     			<script>
 				    $(document).ready(function(){
 			        var then = $('#dueDate'),
