@@ -3,10 +3,6 @@ body {
   font-size: 24px;
 }
 
-p {
-  font-size: 120%
-}
-
 .center-content{
     display: flex;
     justify-content: center;
@@ -30,27 +26,23 @@ p {
   color: #000000;
 }
 
-.border-bottom {
-  border-bottom: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-}
-
-
 @media screen and (min-width: 1024px) {
- .customHeight{
+.customHeight{
       height:325px;
+      font-size: 120%
     }
 }      
 
 @media screen and (max-width: 800px) {
 .customHeight{
       height:325px;
+      font-size: 180%
    }
 }
 
 @media screen and (max-width: 600px) {
 .customHeight{
       height:325px;
+      font-size: 240%
    }
 }
