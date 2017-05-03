@@ -10,17 +10,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
-  <script src="https://npmcdn.com/react@15.3.1/dist/react.min.js"></script>
-  <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+  <script type="text/javascript" src="js/react.js"></script>
+  <script type="text/javascript" src="js/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.min.js"></script>
 </head>
 <body>
   <div class="container-fluid">
-    <script src="js/baby.js"></script>
     <div class="row">
-      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 bg-1 customHeight center-content">
-        <img class="img-responsive" src="http://baby.naodigonada.com/img/diaper.png" />
+      <div id="dipper" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 bg-1 customHeight center-content">
+      </div>
+      <div id="started" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center bg-2 customHeight center-content">
+      </div>
+      <div id="now" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center bg-3 customHeight center-content">
       </div>
     </div>
   </div>
+  <script src="js/baby.js"></script>
+  <script src="js/reactMainBody.js"></script>
 </body>
 <html>
