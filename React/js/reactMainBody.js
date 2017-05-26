@@ -1,6 +1,6 @@
-
+ 
 var images = {
-  dipper: "http://baby.naodigonada.com/img/diaper.png"
+  logo: "http://baby.naodigonada.com/img/diaper.png"
 };
 
 var options = {};
@@ -9,7 +9,7 @@ var options = {};
 
 var logoClass = React.createClass({
   render: function () {
-  return "<img class='img-responsive' src={images.dipper} />";
+  return "<img class='img-responsive' src={images.logo} />";
   }
 });
 
